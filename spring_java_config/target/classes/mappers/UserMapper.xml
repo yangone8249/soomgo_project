@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.myweb.www.repository.UserDAO">
+	<insert id="register">
+		insert into user(user_email , user_pw , user_name , user_phone)
+		values (#{userEmail} , #{userPw} , #{userName} , #{userPhone})
+	</insert>
+	<select id="getList" resultType="com.myweb.www.domain.UserVO">
+		select * from user
+	</select>
+	<select id="emailCheck" parameterType="String" resultType="int">
+		SELECT COUNT(user_email) FROM user WHERE user_email= #{userEmail}
+	</select>
+	<select id="login" parameterType="uvo" resultType="uvo">
+	select * from user where
+	user_email = #{userEmail} and user_pw = #{userPw}
+	</select>
+	<update id="edit" parameterType="uvo">
+	update user set user_pw = #{userPw} , user_name = #{userName} , user_phone = #{userPhone} where user_email = #{userEmail}
+	</update>
+	<delete id="delete" parameterType="string">
+		delete from user where user_email = #{userEmail}
+	</delete>
+	</mapper>    
