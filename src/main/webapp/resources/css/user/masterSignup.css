@@ -1,0 +1,583 @@
+@import url(/resources/css/reset.css);
+
+.main_box{
+	background-color: #f2f2f2;
+    width: 100%;
+    height: 1300px;
+    margin: auto;   
+    display: flex;
+    justify-content: center; 
+}
+.main_img_box{
+	position: absolute;
+    display: flex;
+    width: 1920px;
+    height: 314px;
+}
+.main_img_box img{
+    width:1920px;
+    height: 314px;
+}
+
+#informationBox>h2{
+    font-size: 45px;
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 3px;
+}
+#grade{
+    position: absolute;
+    margin-top: 130px;
+}
+body{
+    margin: 0;
+}
+#blackBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+#grade>h4{
+    position: absolute;
+    color: #ffce21;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+#infoBox{
+    position: absolute;
+    margin-top: 180px;
+    width: 600px;
+    height: 58px;
+}
+.detailInfoBox{
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: white solid 1px;
+
+}
+.detailInfoBox:last-child{
+    border-right: none;
+}
+.detailInfoBox>h4{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.detailInfoBox>p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+#selectMainBox{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 50px;
+    padding-top: 70px;
+    border: rgba(128, 128, 128, 0.623) solid 1px;
+}
+#selectBar{
+    margin-top: 10px;
+    width: 450px;
+    height: 7px;
+    background-color: #f2f2f2;
+    border-radius: 5px 5px 5px 5px;
+}
+#selectBarPercent{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -15px;
+    color: #00C7AE;
+    font-weight: bold;
+}
+#selectMainBox>h2{
+margin-top: 60px;
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    right: 12px;
+    position: relative;
+}
+.selectLi{
+    float: none;
+}
+#firstSelectLi{
+    border-radius: 5px 5px 0px 0px;
+}
+.selectLi>div{
+    width: 490px;
+    height: 65px;
+    border-top: rgba(128, 128, 128, 0.219) solid 1px;
+    border-left: rgba(128, 128, 128, 0.219) solid 1px;
+    border-right: rgba(128, 128, 128, 0.219) solid 1px;
+    cursor: pointer;
+}
+#lastSelectLi{
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: rgba(128, 128, 128, 0.219) solid 1px;
+}
+#selectUl{
+    margin-top: 70px;
+}
+.radio{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.selectLi>div>p{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#nextBtn{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 360px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;	
+    background-color:#00c7ae;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 130px;
+    height: 50px;
+}
+#prevBtn{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 215px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #00c7ae;
+    background-color: white;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 130px;
+    height: 50px;
+}
+#whatIsSoomgoBox{
+    margin-top: 330px;
+    margin-left: 640px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.ExplainBox{
+    margin-top: 65px;
+    width: 500px;
+    height: auto;
+}
+.ExplainBox:last-child{
+    margin-top: 40px;
+}
+.ExplainBox>p{
+    font-size: 13px;
+
+}
+.ExplainBox>h4{
+    margin-bottom: 0px;
+    line-height: 2;
+}
+#inputEtc{
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 70px;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+}
+#inputEtc::placeholder{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.562);
+}
+#inputEtc:focus{
+    outline: #00C7AE solid 1px;
+}
+#chooseOption{
+    position: absolute;
+    bottom: 55px;
+    color: red;
+    font-size: 15px;
+}
+#inputEtcPtag{
+    position: absolute;
+    color: red;
+    margin-top: 105px;
+    font-size: 15px;
+}
+#selectBarAni{
+    position: absolute;
+    margin-top: -7px;
+    width: 0px;
+    height: 7px;
+    background-color: #00C7AE;
+    border-radius: 5px 5px 5px 5px;
+}
+#selectOptionBox{
+    width: 490px;
+    height: 200px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.selectOption{
+    width: 490px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    color: #b5b5b5;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+
+}
+@keyframes borderColor {
+    100%{border-color: #00C7AE;
+
+    box-shadow: 0px 0px 2px 3px #00c7ac52;
+    }
+}
+.selectOption:focus{
+    animation-name: borderColor;
+    animation-duration:0.2s;
+    animation-duration: leaner;
+    animation-fill-mode: forwards;
+}
+#selectOptionBox option{
+    font-size: 17px;
+}
+#signBox{
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: white;
+    width: 430px;
+    height: 650px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+
+
+input{
+
+	font-size: 16px;
+	padding-left: 10px;
+	border : 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 350px;
+    height : 45px;
+	
+
+}
+
+.emailok{
+	color:#008000;
+	display: none;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+.emailalready{
+	color:#6A82FB; 
+	display: none;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+
+input:focus{
+	
+	outline: 2px solid rgba(127, 255, 212, 0.750);
+	
+}
+
+input:invalid {
+  outline: 2px solid rgba(255, 0, 0, 0.55);
+}
+
+
+.error-message {
+	display: none;
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.error-message_pw {
+	display: none;
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+  }
+  
+.error-message_phone {
+	display: none;
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.error-message_name {
+	display: none;
+	color: red;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+#pw{
+	align-items: center;
+	display: inline-block;
+	justify-content: center;
+	
+}
+
+#userpw{
+
+	position: relative;
+
+}
+
+
+#pwCheck{
+	float: right;
+	
+	font-size: 13px;
+}
+
+#pwCheck{
+	cursor : pointer;
+    margin-left: 310px;
+    margin-top: -28px;
+	position: absolute;
+	color: #00C7AE;
+	font-weight: 600;
+	
+}
+
+#accept{
+	float : left;
+	margin-left : 10px;
+	padding-left : 10px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 13px;	
+	text-align: left;
+	
+}
+
+#accept>ul{
+	color : gray;
+	list-style-type : none;
+	float : left;
+	margin-bottom: 30px;
+}
+
+#accept>ul>li:nth-child(1){
+	
+	font-size: 16px;
+	padding-bottom: 15px;
+	
+	
+}
+
+.jb-division-line {
+  border-top: 1px solid whitesmoke;
+  margin : auto;
+  width: 380px;        
+}
+
+
+#accept>ul>li{
+
+	display: flex;
+	margin-top : 15px;
+	margin-left: 30px;
+	
+}
+
+
+#accept>ul>li>input{
+	
+	margin-right : 5px;
+	border : 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 20px;
+    height : 20px;
+	
+	
+}
+
+
+#nameName{
+
+	padding-left : 40px;
+	float:left;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+
+#emailName{
+
+	padding-left : 40px;
+	float:left;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+
+#pwName{
+
+	padding-left : 40px;
+	float:left;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+
+#phoneName{
+	
+	padding-top: 20px;
+	padding-left : 40px;
+	float:left;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+#genderName{
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-right: 356px;
+    font-weight: 600;
+
+}
+#gender{
+	display: inline-flex;
+	margin-bottom: 15px;
+}
+#man{
+	cursor: pointer;
+	width: 100px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 175px;
+    height: 45px;
+    padding-top: 12px;
+}
+#woman{
+	cursor: pointer;
+	width: 100px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 175px;
+    height: 45px;
+    padding-top: 12px;
+}
+#signButton{
+
+	margin-top : 15px;
+    background-color: #00C7AE;
+    color: white;
+    border: none;
+    width: 350px;
+    height : 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom : 10px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#signButton:hover{
+	
+	background-color: rgb(0, 145, 125);
+	
+}
+
+#fbButton{
+
+	margin-top : 5px;
+    background-color: rgb(59, 89, 152);
+    color: white;
+    border: none;
+    width: 350px;
+    height : 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom : 15px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#fbButton:hover{
+	
+	background-color: rgb(77, 115, 197);
+	
+}
+
+#fbButton>img{
+	
+	width : 15px;
+	margin-right: 3px;
+	
+}
+
+#gosuSign{
+	
+	margin-top : 25px;
+	
+}
+
+#gosuSign>a{
+	
+	color: gray;
+    text-decoration-line: none;
+    font-weight: 600;
+    font-size: 17px;
+	
+}
+#userpw::placeholder{
+	font-size: 15px;
+}
+#append{
+	display: inline-block;
+}

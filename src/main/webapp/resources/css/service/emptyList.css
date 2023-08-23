@@ -1,0 +1,57 @@
+.ezengo_pay_page{
+    width: 600px;
+    padding: 3.125rem 1rem 2rem;
+    margin: 0px auto;
+}
+
+.paytitle span{
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.paytitle h1{
+    margin: 34px 0;
+    font-size: 34px;
+    color: #323232;
+}
+
+.paycontent {
+    width: 500px;
+    height: 300px;
+    padding: 60px 0 80px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.imgbox{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+.imgbox>img{
+	width: 100px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+
+.conbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.conbox p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #323232;
+    margin-top: 12px;
+    margin-bottom: 10px;    
+}
+
+.conbox span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #b5b5b5;
+    margin-bottom: 10px
+}

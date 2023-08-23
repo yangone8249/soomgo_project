@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.myweb.www.repository.CategoryDAO">
+	<select id="selectList" resultType="com.myweb.www.domain.CategoryVO">
+		select category_name from category where category_name like '%${categoryName}%'
+	</select>
+	<select id="selectCategoryName" resultType="String">
+		select category_name from category 
+		inner join upcategory on up_category_code = #{estimateUpCategoryCode}
+		where category_code = #{estimateCategoryCode}
+	</select>
+	</mapper>

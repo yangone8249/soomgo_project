@@ -1,0 +1,262 @@
+@import url(/resources/css/reset.css);
+
+.main_box{
+    width: 970px;
+    height: 1300px;
+    margin: auto;    
+}
+.main_img_box{
+	position: absolute;
+    display: flex;
+    width: 1920px;
+    height: 314px;
+}
+.main_img_box img{
+    width:1920px;
+    height: 314px;
+}
+
+#informationBox>h2{
+    font-size: 45px;
+    position: absolute;
+    color: white;
+    margin-top: 70px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 3px;
+}
+#grade{
+    position: absolute;
+    margin-top: 130px;
+}
+body{
+    margin: 0;
+}
+#blackBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+#grade>h4{
+    position: absolute;
+    color: #ffce21;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+#infoBox{
+    position: absolute;
+    margin-top: 180px;
+    width: 600px;
+    height: 58px;
+}
+.detailInfoBox{
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: white solid 1px;
+
+}
+.detailInfoBox:last-child{
+    border-right: none;
+}
+.detailInfoBox>h4{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.detailInfoBox>p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+#selectMainBox{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    padding-bottom: 40px;
+    margin-top: 270px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 50px;
+    padding-top: 70px;
+    border: rgba(128, 128, 128, 0.623) solid 1px;
+}
+#selectBar{
+    margin-top: 10px;
+    width: 450px;
+    height: 7px;
+    background-color: #f2f2f2;
+    border-radius: 5px 5px 5px 5px;
+}
+#selectBarPercent{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -15px;
+    color: #00C7AE;
+    font-weight: bold;
+}
+#selectMainBox>h2{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.selectLi{
+    float: none;
+}
+#firstSelectLi{
+    border-radius: 5px 5px 0px 0px;
+}
+.selectLi>div{
+    width: 490px;
+    height: 65px;
+    border-top: rgba(128, 128, 128, 0.219) solid 1px;
+    border-left: rgba(128, 128, 128, 0.219) solid 1px;
+    border-right: rgba(128, 128, 128, 0.219) solid 1px;
+    cursor: pointer;
+}
+#lastSelectLi{
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: rgba(128, 128, 128, 0.219) solid 1px;
+}
+#selectUl{
+    margin-top: 70px;
+}
+.radio{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.selectLi>div>p{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#nextBtn{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 360px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color:#00c7ae;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 130px;
+    height: 50px;
+}
+#prevBtn{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 215px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #00c7ae;
+    background-color: white;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 130px;
+    height: 50px;
+}
+#whatIsSoomgoBox{
+    margin-top: 330px;
+    margin-left: 640px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.ExplainBox{
+    margin-top: 65px;
+    width: 500px;
+    height: auto;
+}
+.ExplainBox:last-child{
+    margin-top: 40px;
+}
+.ExplainBox>p{
+    font-size: 13px;
+
+}
+.ExplainBox>h4{
+    margin-bottom: 0px;
+    line-height: 2;
+}
+#inputEtc{
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 70px;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+}
+#inputEtc::placeholder{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.562);
+}
+#inputEtc:focus{
+    outline: #00C7AE solid 1px;
+}
+#chooseOption{
+    position: absolute;
+    bottom: 55px;
+    color: red;
+    font-size: 15px;
+}
+#inputEtcPtag{
+    position: absolute;
+    color: red;
+    margin-top: 105px;
+    font-size: 15px;
+}
+#selectBarAni{
+    position: absolute;
+    margin-top: -7px;
+    width: 0px;
+    height: 7px;
+    background-color: #00C7AE;
+    border-radius: 5px 5px 5px 5px;
+}
+#selectOptionBox{
+    width: 490px;
+    height: 200px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.selectOption{
+    width: 490px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: rgba(128, 128, 128, 0.219) solid 1px;
+    color: #b5b5b5;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+
+}
+@keyframes borderColor {
+    100%{border-color: #00C7AE;
+
+    box-shadow: 0px 0px 2px 3px #00c7ac52;
+    }
+}
+.selectOption:focus{
+    animation-name: borderColor;
+    animation-duration:0.2s;
+    animation-duration: leaner;
+    animation-fill-mode: forwards;
+}
+#selectOptionBox option{
+    font-size: 17px;
+}

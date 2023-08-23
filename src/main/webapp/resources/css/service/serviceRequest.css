@@ -1,0 +1,305 @@
+@import url(/resources/css/reset.css);
+
+/*메인 박스 */
+.main_box{
+    max-width: 1920px;
+    height: auto;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+/* 서비스 박스 배경 */
+.serviceTitleBackground {
+	display: flex;
+	max-width: 1920px;
+	height: 100px;
+	background-color: white;
+}
+
+/* 서비스 박스 */
+.serviceTitle{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	width: 580px;
+    height: 100px;
+    margin: auto;
+}
+
+/* 서비스 내부 박스 (왼쪽) */
+.titleNameLeft{
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+.titleNameLeft>h3{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titleNameLeft>span{
+    margin-top: -81px;
+    position: absolute;
+    margin-left: -62px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 5px solid #f2f2f2;
+    color: gray;
+}
+.titleNameLeft>p{
+position: absolute;
+    margin-left: 98px;
+    margin-top: -76px;
+    font-size: 15px;
+    color: gray;
+}
+/* 서비스 내부 버튼 박스 (오른쪽) */
+.titleNameRight{
+	display: flex;
+	width: 200px;
+	height: 100px;
+	padding-top: 30px;
+    padding-left: 42px;
+}
+.titleNameRight>button:first-child{
+	width: 74px;
+    height: 35px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+    border-radius: 10px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+}
+.titleNameRight>button:last-child{
+	margin-left: 10px;
+    width: 74px;
+    height: 35px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+    border-radius: 10px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+div{
+    text-align: center;
+    display: block;
+    
+}
+li{
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+
+.allchat-list{
+    padding-top: 50px;
+}
+.subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+   
+}
+.editoricon{
+   font-size: 16px;
+   float: right;
+   margin: 9px 0px;
+}
+#pagetitle{
+    width: 570px;
+    height: 42px;
+    margin: auto;
+
+}
+#titlecontents{
+    margin-top: 30px;
+}
+
+#serach{
+    width: 510px;
+    height: 30px;
+    display: flex;
+    right: 690px;
+    border: none;
+    margin-top: 5px;
+    background-color: #f6f6f6;
+}
+#searchinput{
+    margin: auto;
+    width: 570px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    
+}
+
+#searchicon{
+    
+    width: 40px;
+    height: 35px;
+    float: left;
+    
+    
+}
+#searchicon1{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+/* 리스트 목록 */
+#chat-list-container{
+    margin: auto;
+    margin-top: 20px;
+    width: 570px;
+    height: 50px;
+    border-bottom: 1px solid darkgray;
+}
+.chat-filter-item{
+    float: left;
+    display: inline;
+    padding: 14px 4px;
+    cursor: pointer
+}
+#chat-filter-item2{
+    margin-left: 15px;
+}
+#chat-filter-item3{
+    margin-left: 15px;
+}
+
+.pagebody{
+    min-height: 12.5rem;
+
+}
+.chat-list-room{
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: fit-content;
+    padding: 14px 16px 12px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.profilecontatiner{
+    display: flex;
+}
+.profileimg{
+    height: 44px;
+    width: 44px;
+    float: left;
+    overflow: hidden;
+    display: inline;
+    margin-bottom: 8px;
+    
+}
+#master-name{
+    height: 26px;
+    padding-left:  20px;
+    display: flex;
+    
+  
+}
+h5{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap
+    
+}
+#master-info{
+    padding: 0.125rem 0 0;
+    color: #737373;
+    font-size: .875rem;
+    line-height: .875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+#last-msg{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.unread-count{
+    border-radius: 0.63rem;
+    font-weight: 500;
+    font-size: .75rem;
+    float: right;
+    width: 1.4375rem;
+    height: 1.25rem;
+    text-align: center;
+    padding: 0;
+    line-height: 1.25rem;
+  
+    
+    margin: auto 0;
+    right: 0;
+    background-color: #ff3131;
+    color: #fff;
+}
+
+.divider{
+    border-bottom: 1px solid lightgray;
+    margin: 8px 0px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.price{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.updated-at{
+    float: right;
+}
+
+.payimg{
+    width: 12px;
+    height: 16px;
+}
+.payhow{
+    background-color: #f6f6f6;
+    margin-right: 5px;
+}
+.payname{
+    font-size: 12px;
+    color: #2257df;
+}
+
+.updatedate{
+    color: #b5b5b5;
+    font-size: 12px;
+}
+
+    
+    

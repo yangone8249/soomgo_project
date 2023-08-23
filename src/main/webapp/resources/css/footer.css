@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration-line: none;
+    font-family: SUITE-Regular;    
+    list-style-type: none;  
+}
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*---------------------- 푸터 영역 -------------------*/
+.footer_line{
+    width: 970px;
+    height: 327px;
+    font-family: SUITE-Regular;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer_top{
+    width: 970px;
+    height: 168px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel_line{
+    width: 300px;
+    height: 150px;
+}
+
+
+/* 전화번호 영역 */
+.tel_box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tel_text_top{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00C7AE;
+    padding-bottom: 5px;
+}
+
+.tel_text_bottom{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    padding-bottom: 30px;
+}
+
+
+/* 버튼 영역 */
+.ap_btn{
+    display: inline-block;
+    width: 136px;
+    height: 36px;
+    background-color: #00C7AE;
+    border-radius: 25px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: normal;
+}
+
+.pl_btn{
+    display: inline-block;
+    width: 136px;
+    height: 36px;
+    background-color: #00C7AE;
+    border-radius: 25px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: normal;
+    margin-left: 10px;
+}
+
+.ap_btn img{
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+.pl_btn img{
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+
+/* 리스트 영역 */
+.text_list{
+    width: 400px;
+    height: 190px;
+    float: right;
+    vertical-align: top; 
+}
+
+.list_span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.firstBox a{
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+    margin-bottom: 5px;
+}
+
+.footer_bot{  
+    width: 970px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot_text{  
+    width: 700px;
+    height: 110px;
+}
+
+.part_o {
+    display: flex;
+}
+
+.part_o li{
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+.part_t{
+    padding-top: 5px;    
+    color: rgb(73, 73, 73);
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.part_to{
+    color: rgb(73, 73, 73);
+    font-size: 13px;
+}
+
+.btnbox{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 30px;
+    margin-top: 80px;
+}
+
+.btnbox img{
+    width: 35px;
+    height: 35px;
+}
