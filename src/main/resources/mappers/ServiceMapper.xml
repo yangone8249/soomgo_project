@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.myweb.www.repository.ServiceDAO">
+	<insert id="insertEvo">
+		insert into estimate(estimate_purpose, estimate_progress, estimate_agegroup, 
+		estimate_ugender, estimate_mgender, estimate_day, estimate_time, estimate_desireregion,
+		estimate_user_num, estimate_up_category_code, estimate_category_code)
+		values (#{estimatePurpose}, #{estimateProgress}, #{estimateAgegroup} , #{estimateUgender},
+		#{estimateMgender}, #{estimateDay}, #{estimateTime}, #{estimateDesireregion}, #{estimateUserNum},
+		#{estimateUpCategoryCode}, #{estimateCategoryCode})
+	</insert>
+	<select id="selectList" resultType="evo">
+		select * from estimate where estimate_user_num = #{userNum}
+	</select>
+	<delete id="deleteEvo">
+		delete from estimate order by estimate_num desc limit 1
+	</delete>
+	<select id="selectCategoryName" resultType="String">
+		select category_name from category where category_code = #{estimateCategoryCode} and up_category_code = #{estimateUpCategoryCode}
+	</select>
+	</mapper>    
